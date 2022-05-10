@@ -1,0 +1,28 @@
+.personajes{
+    @media screen and (max-width:450px){
+        display: none
+    }
+    background-color: brown;
+    padding: 1em;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1em;
+    
+}
+.grid-item{
+    font-size: 50px;
+    border: 10px solid black;
+}
+.imagen-edit{
+    height: 300px;
+    width: 300px;
+    border: solid black;
+}
+.personajes-movile{
+    @media (min-width: 450px){
+        display: none;
+    }
+}

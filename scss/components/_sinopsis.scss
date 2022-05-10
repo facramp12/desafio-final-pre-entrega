@@ -1,0 +1,59 @@
+.grid-sinopsis{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+    background-color: rgb(88, 0, 29);
+}
+.sinopsis-font{
+    font-size: x-large;
+    justify-content: center;
+    align-content: center;
+    .sinopsis{
+        color: white;
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+.personajes-importantes{
+        @media screen and (max-width:450px){
+            display: none
+        }
+    .imagen-sinopsis{
+        height: 300px;
+        width: 350px;
+        border: 8px solid red;
+    }
+    .imagen-description{
+        color: white;
+    }
+}
+.sinopsis-footer{
+    @media screen and (max-width:450px){
+        display: none
+    }
+    .pequeño-nav{
+        display: flex;
+        justify-content: space-around;
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 8px solid black;
+    }
+}
+.imagen-descriptiva-movile{
+    @media (min-width: 450px){
+        display: none;
+    }
+    background-color: black;
+    .imagen-sinopsis{
+        height: 300px;
+        width: 350px;
+        border: 8px solid red;
+    }
+    .imagen-description{
+        color: white;
+    }
+}
+
+/*hola me iamo facu*/
